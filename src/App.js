@@ -72,7 +72,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row mb-3">
-          <div className="col-md-8 themed-grid-col">
+          <div className="col-md-8 battleGame">
             <ChoiceCard
               title="Computer"
               imgURL={computerChoice.url}
@@ -86,7 +86,7 @@ function App() {
               imgURL={playerChoice && playerChoice.url}
             />
           </div>
-          <div className="col-md-4 themed-grid-col">
+          <div className="col-md-4 history">
             <h3>History</h3>
             <ul>
               {gameHistory.map(result => {

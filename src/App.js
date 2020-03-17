@@ -44,6 +44,8 @@ const getRoundOutcome = userChoice => {
 };
 
 function App() {
+
+  
   const [computerChoice, setComputerChoice] = useState(getRandomChoice());
   const [playerChoice, setPlayerChoice] = useState(null);
   const [gameHistory, setGameHistory] = useState([]);
